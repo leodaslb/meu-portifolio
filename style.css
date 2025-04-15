@@ -22,6 +22,7 @@ body{
     top: 0;
     left: 0;
     z-index: 1000;  /* Garante que a navbar fique acima de outros conteúdos */
+    height: 10%;
 }
 .nav_ul{
     display: flex;
@@ -48,6 +49,7 @@ ul{
     width: 80%;
     background-color: antiquewhite;
     margin: 0 auto;
+    
 }
 
 .container{
@@ -55,16 +57,56 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    
     width: 100%;
     max-width: 100%;
+    margin-top: 10px;
 }
 
 #sobre{
     display: flex;
     justify-content: center;
-    height: 200px;
+    height: auto;
+    padding-top: 70px;
 }
+.sobre_mim{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px 40px;
+    border: 1px solid black;
+    width: 100%;
+}
+.foto{
+    display: flex;
+    flex: 1;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+}
+.profile_picture{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.descrição {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+p{
+    font-size: 14px;
+}
+
 #projetos{
     display: flex;
     justify-content: center;
