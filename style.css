@@ -23,7 +23,6 @@ body{
 }
 .nav_ul{
     display: flex;
-    border: 1px solid black;
     justify-content: space-around;
     padding: 10px;
     background-color: #4c2d2d;
@@ -68,8 +67,8 @@ ul{
     align-items: center;
     gap: 20px;
     padding: 0px 40px;
-    border: 1px solid black;
     width: 100%;
+    margin-top: 25px;
 }
 .foto{
     display: flex;
@@ -77,7 +76,6 @@ ul{
     text-align: center; 
     justify-content: center;
     align-items: center;
-    
     padding: 5px;
 }
 .profile_picture{
@@ -87,26 +85,27 @@ ul{
     object-fit: cover;
     background-color: white;
     justify-content: center;
-    align-items: center;
+    
 }
 .intro{
     flex: 2;
     display: flex;
     flex-direction: column;
-    
     padding: 20px;
     line-height: 1.5;
     width: 50%;
+    margin-bottom: 40px;
+    
 }
 .intro h1,h3{
     display: flex;
-    justify-content: center;
+    
     
 }
 .sobre_mim
 {
+    padding: 20px;
     width: 80%;
-    border: 1px solid blue;
 }
 
 .descrição {
@@ -122,8 +121,8 @@ p{
 
 #projetos{
     display: flex;
-    height: 300px;
-    border: 3px solid pink;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 .container_p{
     display: flex;
@@ -136,26 +135,56 @@ p{
     display: flex;
     flex-direction: column;
     flex: 1;
-    border: 1px solid red;
     height: 100%;
 }
 .cards{
     display: flex;
+    
+    flex-wrap: wrap;
+    padding: 10px;
 }
 .card1{
     display: flex;
+    flex-direction: column;
     width: 200px;
-    height: 120px;
+    height: 200px;
     background-color: white;
+}
+.card1pic{
+    display: flex;
+    width: 250px;
+    height: 200px;
+    margin: 15px;
+}
+.card1pic img{
+    max-width: 100%;
+    object-fit: fill;
+    overflow: hidden;
+
+}
+.card1tec{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 15px;
+    
+}
+.card1tec img{
+    max-width: 100%;
+    object-fit: fill;
+    overflow: hidden;
 }
 
 .tecnologias{
     display: flex;
     flex-direction: column;
     flex: 1;
-    border: 1px solid white;
+
     height: 100%;
 }
+
+
 
 #sobre, #projetos {
     scroll-margin-top: 50px;
@@ -187,6 +216,3 @@ footer{
     justify-content: center;
 }
 
-#contato p{
-    
-}
