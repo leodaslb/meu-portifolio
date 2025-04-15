@@ -11,11 +11,8 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: white;
-    
+    background-color: white;  
 }
-
-
 .navbar {
     position: fixed;
     width: 100%;
@@ -37,7 +34,6 @@ body{
 text-decoration: none;
 color: aliceblue;
 }
-
 ul{
     list-style: none;
 }
@@ -48,30 +44,28 @@ ul{
     flex: 1;
     width: 80%;
     background-color: antiquewhite;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    
     width: 100%;
     max-width: 100%;
     margin-top: 10px;
 }
-
 #sobre{
     display: flex;
     justify-content: center;
     height: auto;
     padding-top: 70px;
 }
-.sobre_mim{
+.apresentaçao{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
     padding: 0px 40px;
     border: 1px solid black;
@@ -83,6 +77,8 @@ ul{
     text-align: center; 
     justify-content: center;
     align-items: center;
+    
+    padding: 5px;
 }
 .profile_picture{
     width: 150px;
@@ -92,15 +88,32 @@ ul{
     background-color: white;
     justify-content: center;
     align-items: center;
+}
+.intro{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
     
+    padding: 20px;
+    line-height: 1.5;
+    width: 50%;
+}
+.intro h1,h3{
+    display: flex;
+    justify-content: center;
     
 }
+.sobre_mim
+{
+    width: 80%;
+    border: 1px solid blue;
+}
+
 .descrição {
     flex: 3;
     display: flex;
     align-items: center;
     padding: 20px;
-    font-size: 1rem;
     line-height: 1.5;
 }
 p{
@@ -109,9 +122,41 @@ p{
 
 #projetos{
     display: flex;
-    justify-content: center;
     height: 300px;
+    border: 3px solid pink;
 }
+.container_p{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+}
+.proj{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid red;
+    height: 100%;
+}
+.cards{
+    display: flex;
+}
+.card1{
+    display: flex;
+    width: 200px;
+    height: 120px;
+    background-color: white;
+}
+
+.tecnologias{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid white;
+    height: 100%;
+}
+
 #sobre, #projetos {
     scroll-margin-top: 50px;
 }
@@ -140,4 +185,8 @@ footer{
     display: flex;
     flex: 1;
     justify-content: center;
+}
+
+#contato p{
+    
 }
