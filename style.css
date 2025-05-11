@@ -29,7 +29,7 @@ h3 {
 
 a {
     text-decoration: none;
-    color: #1e3a8a;
+    color: #f4f4f5;
 }
 
 p {
@@ -140,7 +140,8 @@ p {
 }
 
 .formacao h1 {
-    margin-bottom: 40px;
+    margin: 40px 0px;
+    text-align: center;
 }
 
 .cards {
@@ -195,7 +196,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px 0;
+    margin: 0 0 40px 0;
 }
 .projetos h1{
     margin: 40px 0;
@@ -204,11 +205,12 @@ p {
 .proj {
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     flex-wrap: wrap;
 }
 .proj h3,.proj p{
     margin: 10x 0;
+    padding: 10px 0;
 }
 .card-proj {
     display: flex;
@@ -250,13 +252,14 @@ footer {
     flex-direction: column;
     background-color: #0f172a;
     align-items: center;
-    height: 50px;
+    height: 70px;
     width: 100%;
 }
 
 .contato {
     display: flex;
     width: 80%;
+    padding:5px ;
 }
 
 .contato ul {
