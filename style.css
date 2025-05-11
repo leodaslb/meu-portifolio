@@ -252,7 +252,7 @@ footer {
     flex-direction: column;
     background-color: #0f172a;
     align-items: center;
-    height: 70px;
+    
     width: 100%;
 }
 
@@ -276,6 +276,7 @@ footer {
 footer p {
     font-family: 'Open Sans', sans-serif;
     color: white;
+    padding:10px;
 }
 
 @media (max-width: 768px) {
