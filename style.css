@@ -202,6 +202,23 @@ p {
     transform: scale(1.05);
 }
 
+.soft{
+    width: 90%;
+}
+.soft ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: disc;
+
+}
+.soft li{
+    margin: 10px 20px;
+    font-size: 18px;
+}
+.soft li:hover{
+    transform: scale(1.06);
+}
 .projetos {
     display: flex;
     flex-wrap: wrap;
